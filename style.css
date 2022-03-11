@@ -1,3 +1,37 @@
 * {
-    color: rebeccapurple;
+    color: black;
+    margin: 0px;
+}
+
+html {
+    background-color: black;
+}
+
+/*HEADER*/
+
+.main-header {
+    background-color: rgba(47, 47, 160, 0.685);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.main-header ul{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.main-header i a{
+    color: white;
+}
+
+.main-header div {
+    color: white;
+    flex: 1;
+    padding: 50px;
 }
