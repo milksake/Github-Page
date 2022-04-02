@@ -1,6 +1,7 @@
 * {
     color: black;
     margin: 0px;
+    padding: 0;
 }
 
 html {
@@ -34,4 +35,44 @@ html {
     color: white;
     flex: 1;
     padding: 50px;
+}
+
+section {
+    display: flex;
+    padding: 8% 13%;
+}
+
+.first-section {
+    background-color: rgb(22, 35, 54);
+    gap: 50px;
+}
+
+.first-section * {
+    color: white;
+}
+
+.first-section div {
+    flex: 1;
+}
+
+.first-section h1 {
+    font-size: 400%;
+}
+
+.first-section p {
+    margin-top: 25px;
+    font-size: 160%;
+}
+
+.first-section button {
+    background-color: rgb(24, 89, 116);
+}
+
+button {
+    font-size: 125%;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 10px;
 }
