@@ -10,31 +10,30 @@ html {
 
 /*HEADER*/
 
-.main-header {
-    background-color: rgba(47, 47, 160, 0.685);
+header {
+    background-color: rgb(24, 89, 116);
     height: 100px;
     display: flex;
     align-items: center;
     font-size: 20px;
+    padding: 0% 13%;
 }
 
-.main-header ul{
+header * {
+    color: white;
+}
+
+header ul{
     flex: 1;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 30px;
-    padding: 50px;
 }
 
-.main-header i a{
-    color: white;
-}
-
-.main-header div {
+header div {
     color: white;
     flex: 1;
-    padding: 50px;
 }
 
 /*SECTIONS*/
@@ -87,7 +86,7 @@ section div {
 
 .second-section img {
     background-color: black;
-    border: 2px solid blue;
+    border: 2px solid rgb(24, 89, 116);
     box-sizing: border-box;
     border-radius: 50px;
 }
